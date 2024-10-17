@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*
+font-family: "Poppins", sans-serif;
+font-family: "Montserrat", sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif; 
+}
+.section-versiones1 h1{
+    text-align: center;
+    text-size-adjust: auto;
+    padding: 20px;
+}
+button{
+    background-color: rgb(255, 0, 0);
+    color: antiquewhite;
+    padding: 1.25rem;
+}
+.header-section{
+    width: 100%;
+    height: 22rem;
+    background-image: url(../assets/img/nuova-fiat-500-quella-elettrica.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Poppins", sans-serif;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-size: cover;
+}
+
+.barra-nav{
+    display: flex;
+    justify-content: space-around;
+    padding:16rem;
+    list-style: none;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.barra-nav li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+.section-index1{
+    width:100%;
+    height:500px;
+    background-image: url(../assets/img/fiat-section1.jpg);
+    background-size:cover;
+    flex-direction: row;
+    flex-wrap: nowrap ;
+    background-repeat: no-repeat;
+}
+.section-index1 div p{
+    background-color: rgb(255, 0, 0);
+    color: antiquewhite;
+    width:100px;
+    height:60px;
+}
+.section-index1 div img{
+    width: 30%;
+    height: 20%;
+}
+.footer{
+    background-color: rgb(114, 112, 112);
+    width:100%;
+    height: 15rem;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+.logo-footer{
+    width:31.25rem;
+}
+h3{
+    font-size: 1rem;
+    color: antiquewhite;
+    text-align: center;   
+}
+.logo-x{
+    width: 6.25rem;
+}
+.logo-instagram{
+    width: 6.25rem;
+    text-align: right;
+}
+.logo-youtube{
+    width: 6.25 rem;
+    text-align: right;
+}
+.logo-chats{
+    width: 5rem;
+    height: auto;
+}
+.diseño-italiano{
+    width: 6.25rem;
+    height: auto;
+}
