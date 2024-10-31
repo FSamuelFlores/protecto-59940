@@ -14,47 +14,60 @@ body{
     font-family: "Poppins", sans-serif; 
 }
 
-button{
+.btn{
     background-color: rgb(255, 0, 0);
     color: antiquewhite;
     padding: 1.25rem;
 }
 .header-section{
     width: 100%;
-    height: 11.25rem;
-    background-image: url(../assets/img/nuova-fiat-500-quella-elettrica.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-family: "Poppins", sans-serif;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background-size: cover;
-}
-
-.barra-nav{
+    height: 8.125rem;
     display: flex;
-    justify-content: space-around;
-    list-style: none;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.barra-nav{
+    width: 100%;
+    display: flex;
+}
+.navbar-nav{
+    justify-content: space-between;
+}
+.navbar-brand{
+    width: 20%;
+    height: auto;
+}
+.navbar-brand img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.nav-item a{
+    color: gray;
     text-decoration: none;
-    color: antiquewhite;
-    padding: 140px;
+}
+.nav-item a:hover{
+    color: red;
 }
 
-.barra-nav li a{
-    text-decoration: none;
-    color: antiquewhite;
-    font-size: 20px,
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
 }
-
 .section-index1{
     width: 100%;
     height: 31.25rem;
-    background-image: url(../assets/img/fiat-section1.jpg);
-    background-size:cover;
-    flex-wrap: wrap ;
-    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    margin-top: 1.25rem;
 }
-.logo-imagen-index1{
+.d-block{
+    width: 100%;
+    height: 31.25rem;
+    object-fit: cover;
+}
+
+/*.logo-imagen-index1{
     width: 400px;
     flex-direction: column;
     align-items: flex-end;
@@ -72,84 +85,34 @@ button{
 .logo-imagen-index1 img{
     width: 80%;
     height: 3.75rem;
-}
+} */
 
 .section-index2{
     width: 100%;
     height: 31.25rem;
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
     justify-content: space-evenly;
-    margin: 1.25rem;
+    align-items: center;
     flex-wrap: wrap;
 }
-.card1{
-    width: 18.75rem;
-    height: 25rem;
-}
-
-.card1-img img{
+.card-img-top{
     width: 100%;
-    height: 17.5rem;
+    height: 15.625rem;
+    object-fit: contain;
+}
+.card-img-top1{
+    width: 100%;
+    height: 15.625rem;
     object-fit: cover;
-    border-radius: 150px;
-    margin-bottom: 1.25rem;
 }
-.card1-contenido h2{
-    font-family: "Poppins", sans-serif; 
-    font-size: 20px;
-    margin-bottom: 1.25rem;
-
+.card-body{
+width: 100%;
+height: 50%;
 }
-.card1-contenido p{
+.card-body h2{
+    color: red;
     font-size: 1.25rem;
-    margin-bottom: 1.25rem;
-    justify-content: center;
-}
-.card2{
-    width: 18.75rem;
-    height: 25rem;
-}
-
-.card2-img img{
-    width: 100%;
-    height: 50%;
-    object-fit: contain;
-    border-radius: 150px;
-    margin-bottom: 1.25rem;
-}
-.card2-contenido h2{
-    font-family: "Poppins", sans-serif; 
-    font-size: 20px;
-    margin-bottom: 1.25rem;
-}
-.card2-contenido p{
-    font-size: 1.25rem;
-    margin-bottom: 1.25rem;
-    justify-content: center;
-}
-
-.card3{
-    width: 18.75rem;
-    height: 25rem;
-}
-
-.card3-img img{
-    width: 100%;
-    height: 50%;
-    object-fit: contain;
-    border-radius: 150px;
-    margin-bottom: 1.25rem;
-}
-.card3-contenido h2{
-    font-family: "Poppins", sans-serif; 
-    font-size: 20px;
-    margin-bottom: 1.25rem;
-}
-.card3-contenido p{
-    font-size: 1.25rem;
-    margin-bottom: 1.25rem;
-    justify-content: center;
 }
 
 .section-index3{
@@ -158,126 +121,220 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 20px;
     background-color: lightgrey;
     flex-wrap: wrap;
-}
-.card4{
-    width: 18.75rem;
-    height: 25rem;
+    padding-top: 0rem;
 }
 
-.card4-img img{
+.section-accesorios1{
     width: 100%;
-    height: 10%;
-    object-fit: contain;
-    border-radius: 150px;
-    margin-bottom: 1.25rem;
+    height: 31.25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3.125rem;
 }
-.card4-contenido h2{
-    font-family: "Poppins", sans-serif; 
-    font-size: 20px;
-    margin-bottom: 15px;
+
+.section-titulo p{
+    font-size: 1.25rem;
     color: red;
 }
-
-.card4-contenido p{
-    font-size: 1.25rem;
-    margin-bottom: .75rem;
-    justify-content: center;
+.section-titulo h1{
+    font-size: .9375rem;
+    color: black;
 }
-
-.card5{
-    width: 18.75rem;
-    height: 25rem;
-}
-
-.card5-img img{
+.section-titulo img{
     width: 100%;
-    height: 50%;
-    object-fit: cover;
-    border-radius: 150px;
-    margin-bottom: 1.25rem;
+    height: 23.75rem;
 }
-.card5-contenido h2{
-    font-family: "Poppins", sans-serif; 
-    font-size: 20px;
-    margin-bottom: 1.25rem;
-    color: red;
-
-}
-.card5-contenido p{
-    font-size: 1.25rem;
-    margin-bottom: 1.25rem;
-    justify-content: center;
-}
-.card6{
-    width: 18.75rem;
-    height: 25rem;
-}
-
-.card6-img img{
+.section-card-acesorios{
     width: 100%;
-    height: 50%;
-    object-fit: contain;
-    border-radius: 150px;
-    margin-bottom: 1.25rem;
+    height: 31.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightgray;
 }
-.card6-contenido h2{
-    font-family: "Poppins", sans-serif; 
-    font-size: 20px;
-    margin-bottom: 1.25rem;
-    color: red;
+.card-contenido{
+    height: 28.125rem;
+    margin-top: 1.5625rem;
+}
+.section-card-acesorios2{
+    width: 100%;
+    height: 31.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgba(255, 0, 0, 0.662);
+    
+}
 
+----/*detalles*/----
+
+.titulo-detalles{
+    width: 100%;
+    height: 3.125rem;
 }
-.card6-contenido p{
+
+.titulo-detalles h1{
     font-size: 1.25rem;
-    margin-bottom: 1.25rem;
+    color: black;
+    display: flex;
     justify-content: center;
+    margin-top: .625rem;
 }
 
-
-
-
-
-
-
-
-
-.footer{
-    background-color: rgb(114, 112, 112);
-    width:100%;
-    height: 15rem;
+.section-detalles{
+    width: 100%;
+    height: 20rem;
+    background-color: gray;
     display: flex;
-    font-family: "Poppins", sans-serif;
+    flex-direction: row;
+    margin-top: .9375rem;
+}
+.section-detalles2{
+    width: 100%;
+    height: 20rem;
+    background-color: rgba(255, 0, 0, 0.662);
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    margin-top: .9375rem;
 }
-.barra-footer nav ul li{
-    text-decoration: none;
-    color: white;
-    font-size: 10px;
-    justify-content: space-between;
+.img-detalles1{
+    width: 50%;
+    height: auto;
     display: flex;
-}
-.logo-footer{
-    width:31.25rem;
-}
-h3{
-    font-size: 1rem;
-    color: antiquewhite;
-    text-align: center;   
-}
-.logo-x{
-    width: 6.25rem;
     flex-direction: column;
-    align-items: flex-end;
 }
-.logo-instagram{
-    width: 6.25rem;
-    text-align: right;
+.img-detalles1 img{
+    width: 100%;
+    height: 18.75rem;
+    object-fit: cover;
+    border: .125rem dotted black;
+    border-radius: .9375rem;
+    margin-top: .625rem;
 }
-.logo-youtube{
-    width: 6.25 rem;
-    text-align: right;
+.contenido-detalles1{
+    width: 50%;
+    height: 18.75rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4, 80px);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenido-detalles1 h2{
+    width: 100%;
+    height: 6.25rem;
+    font-size: 1.25rem;
+    color: red;
+    padding: 2.5rem;
+    margin-left: 2.5rem;
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+.contenido-detalles1 p{
+    width: 100%;
+    height: 6.25rem;
+    font-size: 1.25rem;
+    color: black;
+    grid-column: 2 / 5;
+    grid-row: 3 / 5;
+
+}
+
+.titulo-detalles1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.titulo-detalles1 h2{
+    color: rgb(255, 0, 0);
+    font-size: .9375rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.parrafo-detalles1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.detalles-contenido1 p{
+    color: black;
+    font-size: .8125rem;
+}
+.titulo-diseño{
+    color: red;
+    font-size: 1.25rem;
+
+}
+.parrafo-diseño{
+    color: black;
+    font-size: .9375rem;
+}
+
+
+/* versiones*/
+
+
+.titulo-principal-versiones{
+    width: 100%;
+    height: 3.125rem;
+    display: flex; 
+    justify-content: center; 
+    
+}
+.titulo-principal-versiones h1{
+    color: black;
+    font-size: 1.25rem;
+}
+
+.section-versiones1{
+    width: 100%;
+    height: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-card-acesorios1{
+    width: 100%;
+    height: 25rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+
+    justify-content: space-evenly;
+    background-color: lightgray;    
+    }
+.card-contenido{
+        height: 28.125rem;
+        margin-top: 1.5625rem;
+    }
+
+.negro-versiones{
+    width: 40%;
+    height: auto;
+}
+.negro-versiones img{
+    width: 60%;
+    height: auto;
+}
+.titulo-versiones-h2{
+    width: 40%;
+    color: red;
+    font: 17px;
+    flex-direction: column;
+}
+.card-contenido2{
+    height: 18.75rem;
+    margin-top: 1.25rem;
 }

@@ -4,78 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accesorios</title>
+    <link rel="stylesheet"|href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-<header class="header-section">
-    <nav>
-        <ul class="barra-nav">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./versiones.html">Versiones</a></li>
-            <li><a href="./detalles.html">Detalles</a></li>
-            <li><a href="#">Accesorios</a></li>
-            <li><a href="./galeria.html">Galeria</a></li>
-        </ul>
-    </nav>
-</header>
+    <header class="header-section">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../assets/img/fiat-logo-1.jpg" alt="logo-fiat"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse barra-nav d-flex justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav d-flex gap-5">
+                    <li class="nav-item"><a href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a href="./galeria.html">Galería</a></li>
+                    <li class="nav-item"><a href="./detalles.html">Detalles</a></li>
+                    <li class="nav-item"><a href="#">Accesorios</a></li>
+                    <li class="nav-item"><a href="./versiones.html">Versiones</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 <main>
-    <section>
-        <div><p>CATÁLOGO DE ACCESORIOS FIAT CRONOS</p></div>
-        <h1>COMPRÁ LOS ACCESORIOS DE TU FIAT CRONOS</h1>
-        <img src="../assets/img/cronos-lateral.jpg" alt="cronos-lateral">
+    <section class="section-accesorios1">
+        <div class="section-titulo">
+            <p>CATÁLOGO DE ACCESORIOS FIAT CRONOS</p>
+            <h1>COMPRÁ LOS ACCESORIOS DE TU FIAT CRONOS</h1>
+            <img src="../assets/img/cronos-lateral.jpg" alt="cronos-lateral">
+        </div>
     </section>
-    <section>
-        <article>
-            <img src="../assets/img/red-elastica.jpg" alt="red-elastica">
-            <p>RED ELÁSTICA DE ASIENTO DELANTERO</p>
-            <button>COMPRAR</button>
-        </article>
-        <article>
-            <img src="../assets/img/tapa-espejo-cromado.jpg" alt="tapa-espejo">
-            <p>TAPA ESPEJO RETROVISOR EXTERNO CROMADO</p>
-            <button>COMPRAR</button>
-        </article>
-        <article>
-            <img src="../assets/img/red-elastica-baul.jpg" alt="red-baul">
-            <p>RED ELÁSTICA PARA BAÚL</p>
-            <button>COMPRAR</button>
-        </article>
+    <section class="section-card-acesorios">
+        <div class="card text-center card-contenido" style="width: 18rem;">
+            <img src="../assets/img/red-elastica.jpg" class="card-img-top1" alt="red-elastica">
+            <div class="card-body">
+                <h5 class="card-title">RED ELÁSTICA DE ASIENTO DELANTERO</h5>
+                <a href="#" class="btn">COMPRAR</a>
+            </div>
+        </div>
+        <div class="card text-center card-contenido" style="width: 18rem;">
+            <img src="../assets/img/tapa-espejo-cromado.jpg" class="card-img-top" alt="tapa-espejot">
+            <div class="card-body">
+                <h5 class="card-title">TAPA ESPEJO RETROVISOR EXTERNO CROMADO</h5>
+                <a href="#" class="btn">COMPRAR</a>
+            </div>
+        </div>
+        <div class="card text-center card-contenido" style="width: 18rem;">
+            <img src="../assets/img/red-elastica-baul.jpg" class="card-img-top" alt="red-bault">
+            <div class="card-body">
+                <h5 class="card-title">RED ELÁSTICA PARA BAÚL</h5>
+                <a href="#" class="btn">COMPRAR</a>
+            </div>
+        </div>
     </section>
-    <section>
-        <article>
-            <img src="../assets/img/moldura-cromada.jpg" alt="moldura-cromada">
-            <p>MOLDURA DE PUERTA CROMADA</p>
-            <button>COMPRAR</button>
-        </article>
-        <article>
-            <img src="../assets/img/parlantes-delanteros.jpg" alt="parlantes">
-            <p>KIT PARLANTES DELANTEROS</p>
-            <button>COMPRAR</button>
-        </article>
-        <article>
-            <img src="../assets/img/parlantes-traseros.jpg" alt="parlantes-traseros">
-            <p>KIT PARLANTES TRASEROS</p>
-            <button>COMPRAR</button>
-        </article>
+    <section class="section-card-acesorios2">
+        <div class="card text-center card-contenido" style="width: 18rem;">
+            <img src="../assets/img/moldura-cromada.jpg" class="card-img-top1" alt="moldura-cromada">
+            <div class="card-body">
+                <h5 class="card-title">MOLDURA DE PUERTA CROMADA</h5>
+                <a href="#" class="btn">COMPRAR</a>
+            </div>
+        </div>
+        <div class="card text-center card-contenido" style="width: 18rem;">
+            <img src="../assets/img/parlantes-delanteros.jpg" class="card-img-top" alt="parlantes">
+            <div class="card-body">
+                <h5 class="card-title">KIT PARLANTES DELANTEROS</h5>
+                <a href="#" class="btn">COMPRAR</a>
+            </div>
+        </div>
+        <div class="card text-center card-contenido" style="width: 18rem;">
+            <img src="../assets/img/parlantes-traseros.jpg" class="card-img-top" alt="parlantes-traseros">
+            <div class="card-body">
+                <h5 class="card-title">KIT PARLANTES TRASEROS</h5>
+                <a href="#" class="btn">COMPRAR</a>
+            </div>
+        </div>
     </section>
 </main>
-<footer class="footer">
-    <div><img src="../assets/img/fiat-logo-1.jpg" alt="logo-fiat-rojo" class="logo-footer"></div>
-    <div>
-        <nav>
-            <ul>
-                <li>Vehículos</li>
-                <li>Concesionarios</li>
-                <li>Contáctanos</li>
-                <li>Postventa</li>
-                <li>Términos y Condiciones</li>
-                <li>Política de Privacidad</li>
-            </ul>
-        </nav>
-    </div>
-    <div><h3>SEGUINOS</h3></div>
-    <div><img src="../assets/img/Twitter-X-Logo-Vector-01-2.jpg" alt="logo-twitter" class="logo-x"></div>
-    <div><img src="../assets/img/th.jpg" alt="logo-instagram" class="logo-instagram"></div>
-</footer>
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Fiat, Inc</p>
+        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg></a>
+        <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Términos y Condiciones</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Política de Privacidad</a></li>
+        </ul>
+    </footer>
+</div> 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>

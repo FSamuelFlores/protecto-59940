@@ -4,97 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiat Cronos</title>
-    <link rel="stylesheet"|href="https://fonts.googleapis.com/icon?family=Material+Icons"
-/>
+    <link rel="stylesheet"|href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header-section">
-            <nav>
-                <ul class="barra-nav">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="./pages/versiones.html">Versiones</a></li>
-                    <li><a href="./pages/ficha.html">Detalles</a></li>
-                    <li><a href="./pages/accesorios.html">Accesorios</a></li>
-                    <li><a href="./pages/galeria.html">Galeria</a></li>
-                </ul>
-            </nav>
-</header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./assets/img/fiat-logo-1.jpg" alt="logo-fiat"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse barra-nav d-flex justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav d-flex gap-5">
+                    <li class="nav-item"><a href="#">Inicio</a></li>
+                    <li class="nav-item"><a href="./pages/galeria.html">Galería</a></li>
+                    <li class="nav-item"><a href="./pages/detalles.html">Detalles</a></li>
+                    <li class="nav-item"><a href="./pages/accesorios.html">Accesorios</a></li>
+                    <li class="nav-item"><a href="./pages/versiones.html">Versiones</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 <main>
     <section class="section-index1">
-        <div class="logo-imagen-index1"><img src="./assets/img/logo-cronos.png" alt="logo-Cronos">
-            <p>desde $4.300.000</p>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/fiat-section1.jpg" class="d-block" alt="fiat-rojo">
+                </div>
+            <div class="carousel-item">
+                <img src="./assets/img/cronos-prueba2.jpg" class="d-block" alt="fiat-gris">
+            </div>
+            <div class="carousel-item">
+                <img src="./assets/img/cronos-prueba.png" class="d-block" alt="fiat-rojo2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </section>
     <section class="section-index2">
-        <article class="card1">
-            <div class="card1-img">
-                <img src="./assets/img/fiat-cronos-1200485.jpg" alt="fiat-gris">
+        <div class="card text-center" style="width: 18rem;">
+            <img src="./assets/img/fiat-cronos-1200485.jpg" class="card-img-top1" alt="fiat-gris">
+            <div class="card-body">
+                <h5 class="card-title">DISEÑO ITALIANO</h5>
+                <p class="card-text">Un diseño italiano, moderno y con lineas expresivas.</p>
+                <a href="#" class="btn">¡CONOCÉ MÁS!</a>
             </div>
-            <div class="card1-contenido">
-                <h2>DISEÑO ITALIANO</h2>
-                <p>Un diseño italiano, moderno y con lineas expresivas</p>
-                <button>¡CONOCÉ MÁS</button>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img src="./assets/img/img-motor.jpg" class="card-img-top" alt="motor-fiat">
+            <div class="card-body">
+                <h5 class="card-title">PERFORMANCE EFICIENTE</h5>
+                <p class="card-text">Motor 1.3 Firefly ofrece gran rendimiento y bajo consumo.</p>
+                <a href="#" class="btn">¡CONOCÉ MÁS!</a>
             </div>
-        </article>
-        <article class="card2">
-            <div class="card2-img"><img src="./assets/img/img-motor.jpg" alt="motor-fiat"></div>
-            <div class="card2-contenido">
-                <h2>PERFORMANCE EFICIENTE</h2>
-                <p>Motor 1.3 Firefly ofrece gran rendimiento y bajo consumo</p>
-                <button>¡CONOCÉ MÁS</button>
+        </div>
+        <div class="card text-center" style="width: 18rem;">
+            <img src="./assets/img/asientos-fiat.jpg" class="card-img-top" alt="asientos-fiat">
+            <div class="card-body">
+                <h5 class="card-title">ESPACIO</h5>
+                <p class="card-text">Gran comodidad para manejar. Amplitud en asientos y baúl.</p>
+                <a href="#" class="btn">¡CONOCÉ MÁS!</a>
             </div>
-        </article>
-        <article class="card3">
-            <div class="card3-img"><img src="./assets/img/asientos-fiat.jpg" alt="asientos-fiat"></div>
-            <div class="card3-contenido">
-                <h2>ESPACIO</h2>
-                <p>Gran comodidad para manejar. Amplitud en asientos y baúl. </p>
-                <button>¡CONOCÉ MÁS</button></div>
-        </article>
+        </div>
     </section>
     <section class="section-index3">
-        <article class="card4">
-            <div class="card4-img"><img src="./assets/img/chat-icon.jpg" alt="logo-chat" class="logo-chats"></div>
-            <div class="card4-contenido">
+        <article class="card text-center card-contenido" style="width: 18rem;">
+            <div><img src="./assets/img/chat-icon.jpg" class="card-img-top" alt="logo-chat" ></div>
+            <div class="card-body">
                 <h2>CHAT ONLINE</h2>
                 <p>¿Tenés dudas o consultas? Chateá con nosotros haciendo click aqui. Días hábiles de 10 a 17 hrs.</p>
                 </div>
         </article>
-        <article class="card5">
-            <div class="card5-img"><img src="./assets/img/Concesionarios-Home.jpg" alt="logo-chat"></div>
-            <div class="card5-contenido">
+        <article class="card text-center card-contenido" style="width: 18rem;">
+            <div><img src="./assets/img/Concesionarios-Home.jpg" class="card-img-top" alt="logo-chat"></div>
+            <div class="card-body">
                 <h2>CONCESIONARIOS FIAT</h2>
                 <p>Contamos con concesionarios a lo largo de toda la Argentia. Conocé cual es el más cercano al tuyo. Hacés un test drive y salís con tu auto nuevo.</p>
             </div>
         </article>
-        <article class="card6">
-            <div class="card6-img"><img src="./assets/img/plan-fiat.jpg" alt="plan-fiat"></div>
-            <div class="card6-contenido">
+        <article class="card text-center card-contenido" style="width: 18rem;">
+            <div><img src="./assets/img/plan-fiat.jpg" class="card-img-top" alt="plan-fiat"></div>
+            <div class="card-body">
                 <h2>FIAT PLAN</h2>
                 <p>Con el plan de ahorro Fiat, podés conquistar tu 0 Km sin entrada y con cuotas sin recargo, con toda la confianza que Fiat ofrece.</p>
             </div>
         </article>
     </section>
 </main>
-<footer class="footer">
-    <div><img src="./assets/img/fiat-logo-1.jpg" alt="logo-fiat-rojo" class="logo-footer"></div>
-    <div class="barra-footer">
-        <nav>
-            <ul>
-                <li>Vehículos</li>
-                <li>Concesionarios</li>
-                <li>Contáctanos</li>
-                <li>Postventa</li>
-                <li>Términos y Condiciones</li>
-                <li>Política de Privacidad</li>
+<div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 Fiat, Inc</p>
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg></a>
+            <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Términos y Condiciones</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Política de Privacidad</a></li>
             </ul>
-        </nav>
-    </div>
-    <div><h3>SEGUINOS</h3></div>
-    <div><img src="./assets/img/Twitter-X-Logo-Vector-01-2.jpg" alt="logo-twitter" class="logo-x"></div>
-
-    <div><img src="./assets/img/th.jpg" alt="logo-instagram" class="logo-instagram"></div>
-</footer>
+        </footer>
+</div> 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>
