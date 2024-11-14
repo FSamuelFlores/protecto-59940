@@ -1,0 +1,21 @@
+.header-section{
+    width: 100%;
+    height: 8.125rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.navbar-brand{
+    width: 20%;
+    height: auto;
+}
+
+.nav-item a{
+    color: gray;
+    text-decoration: none;
+}
+.nav-item a:hover{
+    color: map-get($color, primario)
+}
