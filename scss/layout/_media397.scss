@@ -51,7 +51,7 @@
         width: 100%;
         height: 6.25rem;
         h2{
-            font-size: 12px;
+            font-size: .875rem;
         }
         p{
             font-size: .625rem;
@@ -60,7 +60,7 @@
     .btn{
         padding: .5rem;
         a{
-            font-size: .5rem;
+            font-size: .625rem;
         }
 
     }
@@ -95,5 +95,21 @@
             grid-column: 1 / 2;
         }
     }
+    .section-titulo{
+        width: 6.25rem;
+        height: 15.625rem;
+        p{
+            font-size: .8125rem;
+            
+        }
+        h1{
+            font-size: .75rem;
+        }
+        img{
+            width: 100%;
+            height: 11.25rem;
+        }
+        
+    }   
 
 }

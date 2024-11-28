@@ -21,11 +21,19 @@
     text-decoration: none;
 }
 .nav-item a:hover{
+    transform: scale(2);
     color: map-get($color, primario)
+    
 }
 
 .navbar-nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    li{
+        &:hover{
+            transform: scale(1.5);
+        }
+    }
 }
+
